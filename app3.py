@@ -9,6 +9,15 @@ for i in values:
 
 print(values[6])
 
+x = "this is a thing"
+y = x.split( )
+z = y[0]
+print(y)
+print(z)
 
-food = ["pizza", "taco", "bread", ""]
-print("It was {food[0]} day at school, and {name} was super {adjective} for lunch. But when she went outside to eat, a {noun} stole her {food}! {name} chased the {noun} all over school. She {verb1}, {verb2}, and {verb3} through the playground. Then she tripped on her {noun} and the {noun} escaped. Luckily, {name}'s friends were willing to share their {food} with her.")
+a = "under the sea"
+b = a.split()
+print(b)
+
+x = "test"
+print(f"hello {x}")
