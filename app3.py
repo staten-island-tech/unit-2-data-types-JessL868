@@ -15,9 +15,11 @@ z = y[0]
 print(y)
 print(z)
 
-a = "under the sea"
-b = a.split()
-print(b)
+even_or_odd = input("Is this number even or odd?")
+number = 8
+a = number/2
+if number/2 <> 0:
+    print("even")
+else:
+    print("odd")
 
-x = "test"
-print(f"hello {x}")
