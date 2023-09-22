@@ -15,11 +15,15 @@ z = y[0]
 print(y)
 print(z)
 
-even_or_odd = input("Is this number even or odd?")
-number = 8
-a = number/2
-if number/2 <> 0:
+b = input("please put a sentence")
+c = b.split()
+print(len(c))
+
+a = 60 % 2
+if a == 0:
     print("even")
-else:
+else: 
     print("odd")
+
+
 
