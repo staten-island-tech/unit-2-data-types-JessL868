@@ -42,4 +42,20 @@ def bill():
 
 def factors():
     a = input("please type a number")
-    if a =  
+    range(1, a + 1)
+    for i in a:
+        if a % range == 0:
+            print ()
+def traffic():
+    c = input("Can the traffic go?")
+    a = "Eastbound Traffic"
+    b = "Westbound Traffic"
+    if c == a:
+        print("yes")
+    elif c == b:
+        print("yes")
+    elif c == a and b:
+        print("no")
+    else:
+        print("no")
+traffic()
