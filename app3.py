@@ -45,11 +45,13 @@ def factors():
     range(1, a + 1)
     for i in a:
         if a % range == 0:
-            print ()
+            print (a % range == 0)
+factors()
+
 def traffic():
     c = input("Can the traffic go?")
-    a = "Eastbound Traffic"
-    b = "Westbound Traffic"
+    a = "eastbound traffic"
+    b = "westbound traffic"
     if c == a:
         print("yes")
     elif c == b:
@@ -57,5 +59,4 @@ def traffic():
     elif c == a and b:
         print("no")
     else:
-        print("no")
-traffic()
+        print("yes")
