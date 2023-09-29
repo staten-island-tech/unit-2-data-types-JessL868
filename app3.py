@@ -42,11 +42,15 @@ def bill():
 
 def factors(p):
     print("what are the factors of" ,p,)
-    range(1, p + 1)
-    for i in p:
-        if p % range == 0:
+    for i in range(1, p + 1):
+        if p % i == 0:
             print (i)
-factors(70)
+
+def GCF(a, b):
+    print("what is the GCF of" ,a, "and" ,b,)
+    for i in range(1, a + 1):
+        for i in range(1, b + 1):
+            if a % 
 
 def truthy(x, y):
     x = True
