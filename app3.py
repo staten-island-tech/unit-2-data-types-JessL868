@@ -40,23 +40,21 @@ def bill():
     elif m == ("25%"):
         print("great")
 
-def factors():
-    a = input("please type a number")
-    range(1, a + 1)
-    for i in a:
-        if a % range == 0:
-            print (a % range == 0)
-factors()
+def factors(p):
+    print("what are the factors of" ,p,)
+    range(1, p + 1)
+    for i in p:
+        if p % range == 0:
+            print (i)
+factors(70)
 
-def traffic():
-    c = input("Can the traffic go?")
-    a = "eastbound traffic"
-    b = "westbound traffic"
-    if c == a:
-        print("yes")
-    elif c == b:
-        print("yes")
-    elif c == a and b:
-        print("no")
+def truthy(x, y):
+    x = True
+    y = True
+    if type(x) != bool or type(y) != bool:
+            print("Error")
     else:
-        print("yes")
+        if x == y:
+            print("False")
+        elif x != y:
+            print("True")
