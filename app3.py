@@ -50,10 +50,9 @@ def GCF(a, b):
     print("what is the GCF of" ,a, "and" ,b,)
     for i in range(1, a + 1):
         for p in range(1, b + 1):
-            if a % i == 0:
-                if b % p == 0:
-                    if i == p:
-                        print(i)
+            if a % i == 0 and b % p == 0:
+                input(i) in list
+                print(list)
 GCF(20, 40)
 
 def truthy(x, y):
