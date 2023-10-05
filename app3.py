@@ -48,11 +48,15 @@ def factors(p):
 
 def GCF(a, b):
     print("what is the GCF of" ,a, "and" ,b,)
-    for i in range(1, a + 1):
-        for p in range(1, b + 1):
-            if a % i == 0 and b % p == 0:
-                input(i) in list
-                print(list)
+    if a > b:
+        greater = a
+    else:
+        greater = b
+    for i in range(1, greater + 1):
+        if  a % i == 0 and b % i == 0:
+            gcf = i
+
+    print (gcf)
 GCF(20, 40)
 
 def truthy(x, y):
