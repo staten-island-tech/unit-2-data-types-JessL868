@@ -60,8 +60,8 @@ def GCF(a, b):
 GCF(20, 40)
 
 def truthy(x, y):
-    x = True
-    y = True
+    x = "True"
+    y = "True"
     if type(x) != bool or type(y) != bool:
             print("Error")
     else:
